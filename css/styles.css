@@ -1,0 +1,265 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#logo {
+  margin-left: 25%;
+  height: auto;
+  width: 50%;
+}
+
+.nav-links,
+#hamburgermeny {
+  display: none;
+}
+#hamburgermeny:checked ~ .nav-links {
+  display: block;
+  position: relative;
+  z-index: 6;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(250, 250, 250, 0.986);
+}
+main p {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+main img {
+  margin-top: 35px;
+  width: 100%;
+}
+
+main button {
+  margin-left: 32%;
+  margin-top: 25px;
+}
+
+main a:link,
+main a:visited {
+  background-color: #00999e;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 25px;
+  margin-left: 25%;
+}
+
+main a:hover,
+main a:active {
+  background-color: cyan;
+}
+
+.fasfabars {
+  color: white;
+  display: block;
+  font-size: 25px;
+  align-items: center;
+  padding-left: 47%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  background-color: black;
+}
+
+.nav-links li {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  z-index: 6;
+  align-items: center;
+  font-size: 115%;
+  font-weight: bold;
+  width: 100%;
+  background-color: black;
+}
+
+.nav-links li a {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  color: rgba(250, 250, 250, 0.986);
+  align-items: center;
+  text-align: center;
+}
+
+.active {
+  color: rgb(0, 189, 173) !important;
+  border-bottom: 5px solid rgb(0, 189, 173);
+}
+p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+main {
+  overflow: hidden;
+}
+
+main h1 {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 40px;
+  text-align: center;
+}
+main h2 {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+  main h3 {
+    margin-left: 33%;
+  }
+
+  main button {
+    margin-left: 37%;
+  }
+}
+
+/*desktop*/
+/*resolution 1100-1900px*/
+
+@media only screen and (min-width: 1100px) and (max-width: 2600px) {
+  main h1 {
+    padding-top: 6%;
+    padding-bottom: 3%;
+    font-size: 35px;
+  }
+
+  main h2 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 30px;
+  }
+
+  main h3 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 30px;
+    margin-left: 0%;
+  }
+
+  main {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+  }
+
+  main p {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .images {
+    width: 50%;
+  }
+
+  /*navigation*/
+
+  .link {
+    margin-left: 0%;
+  }
+
+  .fasfabars {
+    display: none;
+  }
+
+  .nav-links {
+    width: 100%;
+    font-size: 150%;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+  }
+  .nav-links li {
+    background-color: rgba(250, 250, 250, 0.986);
+  }
+
+  #museumlogo {
+    border-radius: 10px;
+  }
+
+  .nav-links li a {
+    margin-bottom: 7%;
+    color: black;
+  }
+
+  .nav {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 1901px) and (max-width: 2500px) {
+  /*navigation*/
+
+  .fasfabars {
+    display: none;
+  }
+
+  .link {
+    margin-left: 0%;
+  }
+  .nav-links {
+    width: 100%;
+    font-size: 150%;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    margin-bottom: 7%;
+    color: black;
+  }
+
+  .nav {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (min-width: 2499px) {
+  .fasfabars {
+    display: none;
+  }
+
+  .gamehublink {
+    margin-left: 0%;
+  }
+  .nav-links {
+    width: 100%;
+    font-size: 150%;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+  }
+  .nav-links li {
+    background-color: rgba(250, 250, 250, 0.986);
+  }
+
+  .nav-links li a {
+    margin-bottom: 7%;
+    color: black;
+  }
+
+  .nav {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
